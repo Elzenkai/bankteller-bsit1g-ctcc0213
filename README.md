@@ -63,7 +63,7 @@ private static double balance = 0;
             balance -= amount;
             System.out.println("Withdrawal successful. New balance: $" + balance);
         } else if (amount > balance) {
-            System.out.println("Account balance Insufficient. Withdrawal not permitted.");
+            System.out.println("Account balance Insufficient. Please deposit a balance first.");
         } else {
             System.out.println("Withdrawal amount must be a positive value. Please correct your input.");
        }     
@@ -71,7 +71,6 @@ private static double balance = 0;
 
     private static void checkBalance() {
         System.out.println("Current balance: $" + balance);
-    }
-    
+    }   
 }
 
