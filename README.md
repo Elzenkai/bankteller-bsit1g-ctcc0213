@@ -73,4 +73,3 @@ private static double balance = 0;
         System.out.println("Current balance: $" + balance);
     }   
 }
-
